@@ -4,8 +4,8 @@
 <img width="590" height="403" alt="2" src="https://github.com/user-attachments/assets/1625a06c-8277-4651-998a-ac8941aae015" />
    
 2. The following code violates the Open/Close Principle.  Refactor the program to remove the violation (25 points). 
-public class Customer {
 
+public class Customer {
   private String name;
   private String type; // "Student", "Senior Citizen", or "Regular"
 
@@ -58,8 +58,7 @@ public class PaymentProcessor {
     } else {
       throw new IllegalArgumentException("Unsupported payment method: " + paymentMethod);
     }
-
-  }
+   }
 }
 
 Naming Conventions:
