@@ -1,7 +1,7 @@
 # SOLID-with-DesignPattern
 1. The following object violates Single Responsibility Principle (SRP). Make the adjustment in a form of java code to correct the violation. (25 points)
 
-<img width="590" height="403" alt="2" src="https://github.com/user-attachments/assets/1625a06c-8277-4651-998a-ac8941aae015" />
+<img width="443" height="282" alt="1" src="https://github.com/user-attachments/assets/faec8920-356a-4d74-8fe5-83faaa484b6c" />
    
 2. The following code violates the Open/Close Principle.  Refactor the program to remove the violation (25 points). 
 
@@ -34,7 +34,7 @@ public class Customer {
 - While  smartphones (Iphone and Samsung) can utilize all functionalities, a basic phone (BasicPhone) only needs calling and SMS capabilities.
 - Forcing the BasicPhone class to implement unused methods (browseWeb and takePicture) violates ISP.
 
-<img width="443" height="282" alt="1" src="https://github.com/user-attachments/assets/faec8920-356a-4d74-8fe5-83faaa484b6c" />
+<img width="590" height="403" alt="2" src="https://github.com/user-attachments/assets/1625a06c-8277-4651-998a-ac8941aae015" />
 
 Show your solution in codes how to remove the Interface Segregation problem. 
 
